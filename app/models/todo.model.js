@@ -10,6 +10,8 @@ module.exports = (sequelize, Sequelize) => {
 			type: Sequelize.BOOLEAN,
 			defaultValue: 0
 		}
+	}, {
+		freezeTableName: true
 	});
 
 	return Todo;

@@ -1,7 +1,8 @@
 const dbConfig = require("../config/db.config.js")[process.env.NODE_ENV || 'development'];
 
 const Sequelize = require("sequelize");
-const sequelize;
+
+let sequelize;
 
 console.log("dbConfig ", dbConfig, process.env.NODE_ENV);
 if(!process.env.NODE_ENV) {
