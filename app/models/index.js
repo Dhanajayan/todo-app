@@ -28,6 +28,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.todo = require("./todo.model.js")(sequelize, Sequelize);
+db.todos = require("./todo.model.js")(sequelize, Sequelize);
 
 module.exports = db;

@@ -1,6 +1,6 @@
 const db = require("../models");
 
-const Todo = db.todo;
+const Todo = db.todos;
 const Op = db.Sequelize.Op;
 
 // Create and Save a new todo
