@@ -17,7 +17,6 @@ module.exports = (sequelize, Sequelize) => {
 			defaultValue: 0
 		}
 	}, {
-		tableName: "todo",
 	  freezeTableName: true // Model tableName will be the same as the model name
 	});
 
