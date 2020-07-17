@@ -14,7 +14,7 @@ module.exports = (sequelize, Sequelize) => {
 		},
 		completed: {
 			type: Sequelize.BOOLEAN,
-			defaultValue: 0
+			defaultValue: false
 		}
 	}, {
 	  freezeTableName: true // Model tableName will be the same as the model name
