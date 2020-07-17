@@ -1,2 +1,2 @@
 # todo-app
-Simple Todo App using express, sequelize, mysql
+Simple Todo App using express, sequelize, mysql, postgreSQL
